@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import ThemeSetter from './ThemeSetter';
 import Counter from './Counter';
 import './App.css';
 
@@ -17,7 +16,7 @@ function App() {
 
     return <>
         <div className={darkTheme ? 'dark' : 'light'}>
-            <h2>Welcome</h2>
+            <h2>React JS with localStorage</h2>
             <button onClick={handleToggleThemeClick}>Toggle Theme</button>
             <Counter />
         </div>
